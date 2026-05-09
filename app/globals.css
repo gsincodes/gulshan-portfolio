@@ -15,6 +15,7 @@
   --color-secondary: #aefe28;
   --color-accent: #d6ff4d;
   --font-inconsolata: "Inconsolata", monospace;
+  --color-intro: #3e3b66;
 }
 
 @media (prefers-color-scheme: dark) {
