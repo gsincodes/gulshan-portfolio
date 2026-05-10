@@ -15,7 +15,7 @@ export default function Introduction() {
             </nav>
 
             {/* <div className="w-[1440px] h-0.5 outline outline-1 outline-offset-[-0.50px] outline-black mt-4"></div> */}
-            <main className="flex flex-col flex-1 items-center justify-center">
+            <main className="flex flex-col flex-1 justify-evenly text-center">
 
                 {/*First Gulshan */}
                 <div className="flex md:flex-row flex-col text-[6rem] md:text-[6rem] lg:text-[7rem] xl:text-[12rem] font-bold justify-center items-center text-center leading-none">
@@ -23,20 +23,18 @@ export default function Introduction() {
                 <div className="text-black/15">Singh</div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center text-center leading-none">
-                <h2 className="flex text-intro text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] font-bold justify-center items-center relative z-10">Hi, I'm</h2>
-                <div>
+                <div className="flex flex-col gap-10 items-center text-center leading-none">
+                    <h2 className="flex text-intro text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] font-bold justify-center items-center relative z-10">Hi, I'm</h2>
                     {/*Second Gulshan */}
-                    <div className="flex flex-col text-[6rem] md:text-[6rem] lg:text-[7rem] xl:text-[12rem] md:flex-row font-bold justify-center items-center text-center">
-                    <div className="w-[370px] md:w-[633px] lg:w-[738px] xl:w-[1234px] h-24 bg-lime-300 rounded-[200px] fixed inset-y-auto flex items-center justify-center absolute z-0" /> {/* Yellow rectangle */}
-                    <h1 className="text-stroke-1b z-10">Gulshan</h1>
-                    <h1 className="text-black z-10">Singh</h1>
+                    <div className="w-full md:w-[633px] lg:w-[738px] xl:w-[1234px] sm:h-full md:h-24 bg-lime-300 md:rounded-[200px] flex items-center justify-center"> {/* Yellow rectangle */}
+                        <div className="flex flex-col text-[6rem] md:text-[6rem] lg:text-[7rem] xl:text-[12rem] md:flex-row font-bold justify-center items-center text-center mt-4">
+                            <h1 className="text-stroke-1b z-10">Gulshan</h1>
+                            <h1 className="text-black z-10">Singh</h1>
+                        </div>
                     </div>
-                </div>
-                </div>
-
-                <div> {/*Fullstack Developer*/}
-                <h2 className="text-black font-bold text-[2rem] md:text-[3rem] xl:text-[6rem] text-center relative z-10">a fullstack developer</h2>
+                    <div> {/*Fullstack Developer*/}
+                        <h2 className="text-black font-bold text-[2rem] md:text-[3rem] xl:text-[6rem] text-center relative z-10">a fullstack developer</h2>
+                    </div>
                 </div>
 
                 {/*Third Gulshan */}

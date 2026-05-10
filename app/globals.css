@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100..800&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -16,6 +16,7 @@
   --color-accent: #d6ff4d;
   --font-inconsolata: "Inconsolata", monospace;
   --color-intro: #3e3b66;
+  --font-anek-gurmukhi: "Anek Gurmukhi", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
