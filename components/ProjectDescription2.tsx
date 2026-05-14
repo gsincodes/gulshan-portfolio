@@ -1,30 +1,14 @@
 import Image from "next/image";
 
-export default function ProjectDescription1() {
+export default function ProjectDescription2() {
     return (
         <div className="grid grid-rows-2 grid-cols-1 min-h-screen bg-primary font-inconsolata px-4 py-4 gap-8">
-            <div className="grid grid-rows-[1fr_4fr_1fr_4fr] md:grid-rows-[1fr_4fr] md:grid-cols-2 border-b-1 border-black gap-4">
+            <div className="grid grid-rows-[1fr_3fr_1fr_3fr] md:grid-rows-[1fr_4fr] md:grid-cols-2 border-b-1 border-black gap-4">
                 <div className="bg-coolgreen text-black text-[clamp(1rem,1.5vw,5rem)] w-fit max-md:w-[clamp(100px,90vw,400px)] row-start-1 shadow-xl px-4 py-2 row-span-1 shadow-xl">
-                    FileUp
-                    <br></br>
-                    Fullstack File Uploader Platform
+                    Poke´ Memory Game
                 </div>
 
                 <div className="bg-coolorange flex justify-evenly items-center w-[clamp(100px,90vw,400px)] place-self-center h-full shadow-xl border border-black max-md:h-auto max-md:p-2 max-md:row-start-3 max-md:row-span-1 max-md:justify-self-end">
-                    <Image
-                        className="w-[50px] h-[50px]"
-                        src="/images/postgresql SVG.png"
-                        width={50}
-                        height={50}
-                        alt="postgreSQL icon"
-                    />
-                    <Image
-                        className="w-[50px] h-[50px]"
-                        src="/images/express SVG.png"
-                        width={50}
-                        height={50}
-                        alt="express icon"
-                    />
                     <Image
                         className="w-[50px] h-[50px]"
                         src="/images/react SVG.png"
@@ -32,6 +16,22 @@ export default function ProjectDescription1() {
                         height={50}
                         alt="react icon"
                     />
+
+                    <Image
+                        className="w-[50px] h-[50px]"
+                        src="/images/css3 SVG.png"
+                        width={50}
+                        height={50}
+                        alt="postgreSQL icon"
+                    />
+                    <Image
+                        className="w-[50px] h-[50px]"
+                        src="/images/javascript SVG.png"
+                        width={50}
+                        height={50}
+                        alt="express icon"
+                    />
+                    
                     <Image
                         className="w-[50px] h-[50px]"
                         src="/images/node SVG.png"
@@ -41,7 +41,7 @@ export default function ProjectDescription1() {
                     />
                     <Image
                         className="w-[50px] h-[50px]"
-                        src="/images/prisma SVG.png"
+                        src="/images/vite SVG.png"
                         width={50}
                         height={50}
                         alt="prisma icon"
@@ -50,7 +50,7 @@ export default function ProjectDescription1() {
 
                 <Image
                     className="w-[clamp(100px,90vw,400px)] h-auto shadow-lg border border-black self-center rounded-md"
-                    src="/images/Screenshot 2025-12-09 230112.png"
+                    src="/images/Screenshot 2025-12-09 221659.png"
                     alt="FileUp App"
                     width={400}
                     height={300}
@@ -62,69 +62,60 @@ export default function ProjectDescription1() {
                     </div>
                     <div className="text-black text-[clamp(1rem,1.5vw,5rem)]">
                         <div>
-                            Multer + Prisma indexing
+                            Responsive UI using CSS Grid and Flexbox
                             <br></br>
-                            → 100MB uploads in &#60;2 seconds
+                            → adaptive breakpoints for mobile, tablet, and desktop
                         </div>
                         <div>
-                            Passport.js auth + PostgreSQL
+                            Real‑time match tracking and game state management
                             <br></br>
-                            → reduced unauthorized access by 85%
+                            → engaging user experience
                         </div>
                         <div>
-                            Containerized with Docker Compose
+                            React + Vite build tool
                             <br></br>
-                            → one‑command dev setup
+                            → fast development and optimized production bundle
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className="grid grid-rows-[1fr_3fr_1fr_3fr] md:grid-rows-[1fr_4fr] md:grid-cols-2 gap-4 border-b-1 border-black">
+            <div className="grid grid-rows-[1fr_3fr_1fr_3fr] md:grid-rows-[1fr_4fr] md:grid-cols-2 gap-4">
 
                 <div className="bg-coolpurple flex justify-evenly items-center col-start-1 row-start-1 w-[clamp(100px,90vw,400px)] h-full shadow-xl border border-black max-md:h-fit max-md:p-2 max-md:row-start-3 max-md:row-span-1 max-md:self-center max-md:justify-self-end">
                     <Image
                         className="w-[50px] h-[50px]"
-                        src="/images/postgresql SVG.png"
+                        src="/images/html5 SVG.png"
                         width={50}
                         height={50}
-                        alt="postgreSQL icon"
+                        alt="html icon"
                     />
                     <Image
                         className="w-[50px] h-[50px]"
-                        src="/images/express SVG.png"
+                        src="/images/css3 SVG.png"
                         width={50}
                         height={50}
-                        alt="express icon"
+                        alt="css icon"
                     />
                     <Image
                         className="w-[50px] h-[50px]"
-                        src="/images/react SVG.png"
+                        src="/images/javascript SVG.png"
                         width={50}
                         height={50}
-                        alt="react icon"
+                        alt="javascript icon"
                     />
                     <Image
                         className="w-[50px] h-[50px]"
-                        src="/images/node SVG.png"
+                        src="/images/webpack SVG.png"
                         width={50}
                         height={50}
-                        alt="node icon"
-                    />
-                    <Image
-                        className="w-[50px] h-[50px]"
-                        src="/images/prisma SVG.png"
-                        width={50}
-                        height={50}
-                        alt="prisma icon"
+                        alt="webpack icon"
                     />
                 </div>
 
                 <div className="bg-black text-coolgreen text-[clamp(1rem,1.5vw,5rem)] w-fit max-md:w-[clamp(100px,90vw,400px)] h-full row-start-1 shadow-xl px-4 py-2 row-span-1 min-md:place-self-center">
-                    Memo
-                    <br></br>
-                    Fullstack Microblogging App
+                    Weather Dashboard App
                 </div>
 
                 <div className="flex flex-col justify-center place-self-center max-md:justify-self-end">
@@ -133,26 +124,26 @@ export default function ProjectDescription1() {
                     </div>
                     <div className="text-black text-[clamp(1rem,1.5vw,5rem)]">
                         <div>
-                            Role‑based access control (member vs. admin)
+                            Vanilla JavaScript + Webpack
                             <br></br>
-                            → granular permission management
+                            → modular, optimized SPA without framework overhead
                         </div>
                         <div>
-                            Passport.js authentication + bcryptJS encryption
+                            Visual Crossing API integration with async/await
                             <br></br>
-                            → secure user sessions and data
+                            → seamless, non‑blocking data retrieval
                         </div>
                         <div>
-                            RESTful API with protected route middleware
+                            Responsive UI using CSS Grid and Flexbox
                             <br></br>
-                            → cut code duplication by 30% via reusable controllers
+                            → consistent experience across mobile, tablet, and desktop
                         </div>
                     </div>
                 </div>
 
                 <Image
                     className="w-[clamp(100px,90vw,400px)] h-auto shadow-lg border border-black self-center min-md:place-self-center shadow-xl max-md:row-start-2 rounded-md"
-                    src="/images/Screenshot 2025-12-09 223318.png"
+                    src="/images/Screenshot 2025-07-27 204641.png"
                     alt="FileUp App"
                     width={400}
                     height={300}

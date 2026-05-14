@@ -18,6 +18,8 @@
   --font-inconsolata: "Inconsolata", monospace;
   --color-intro: #3e3b66;
   --font-anek-gurmukhi: "Anek Gurmukhi", sans-serif;
+  --color-coolorange: #ff8d5c;
+  --color-coolpurple: #ef3dff;
 }
 
 @media (prefers-color-scheme: dark) {
