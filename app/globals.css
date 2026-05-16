@@ -20,7 +20,7 @@
   --font-anek-gurmukhi: "Anek Gurmukhi", sans-serif;
   --color-coolorange: #ff8d5c;
   --color-coolpurple: #ef3dff;
-  --color-formcolor: #00B2FF;
+  --color-form: #00B2FF;
 }
 
 @media (prefers-color-scheme: dark) {
