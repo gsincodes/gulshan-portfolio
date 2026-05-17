@@ -17,7 +17,7 @@ export default function Home() {
     const lenis = new Lenis();
 
     // Use requestAnimationFrame to continuously update the scroll
-    function raf(time) {
+    function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
