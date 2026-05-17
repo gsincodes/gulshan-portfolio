@@ -24,11 +24,11 @@ export default function ThingsIveBuilt() {
                         width={400}
                         height={300}
                     />
-                    <motion.div whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-black text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-1 bg-coolgreen text-center shadow-lg justify-self-center border">
+                    <motion.a href="https://fileupbygsincodes.onrender.com/" whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-black text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-1 bg-coolgreen text-center shadow-lg justify-self-center border">
                         FileUp
                         <br></br>
                         Fullstack File Uploader Platform
-                    </motion.div>
+                    </motion.a>
                 </motion.div>
 
                 <motion.div ref={ref} initial={{y: 40, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} whileHover={{scale: 1.02}} transition={{y:{duration: 0.5, delay: 0.25}, opacity: {duration:0.5, delay: 0.5}, ease: easeOut, type: "spring"}} className="bg-blue-400 border border-black grid  grid-rows-[3fr_1fr] items-center w-full h-[clamp(20rem,40vh,50rem)] shadow-xl m-auto">
@@ -39,11 +39,11 @@ export default function ThingsIveBuilt() {
                         width={400}
                         height={300}
                     />
-                    <motion.div whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-coolgreen text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-1 bg-black text-center shadow-lg justify-self-center">
+                    <motion.a href="https://memobygsincodes.onrender.com/" whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-coolgreen text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-1 bg-black text-center shadow-lg justify-self-center">
                         Memo
                         <br></br>
                         Fullstack Microblogging App
-                    </motion.div>
+                    </motion.a>
                 </motion.div>
 
                 <motion.div ref={ref} initial={{y: 40, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} whileHover={{scale: 1.02}} transition={{y:{duration: 0.5, delay: 0.25}, opacity: {duration:0.5, delay: 0.25}, ease: easeOut, type: "spring"}} className="bg-blue-400 border border-black grid grid-rows-[3fr_1fr] items-center w-fit h-[clamp(20rem,40vh,50rem)] shadow-xl m-auto w-full">
@@ -54,9 +54,9 @@ export default function ThingsIveBuilt() {
                         width={400}
                         height={300}
                     />
-                    <motion.div whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-black text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-4 bg-coolgreen text-center shadow-lg justify-self-center border">
+                    <motion.a href="https://memorygamebygsincodes.netlify.app/" whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-black text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-4 bg-coolgreen text-center shadow-lg justify-self-center border">
                         Poke´ Memory Game
-                    </motion.div>
+                    </motion.a>
                 </motion.div>
 
                 <motion.div ref={ref} initial={{y: 40, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} whileHover={{scale: 1.02}} transition={{y:{duration: 0.5, delay: 0.25}, opacity: {duration:0.5, delay: 0.5}, ease: easeOut, type: "spring"}} className="bg-blue-400 border border-black grid grid-rows-[3fr_1fr] items-center w-fit h-[clamp(20rem,40vh,50rem)] shadow-xl m-auto w-full">
@@ -67,9 +67,9 @@ export default function ThingsIveBuilt() {
                         width={400}
                         height={300}
                     />
-                    <motion.div whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-coolgreen text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-4 bg-black text-center shadow-lg justify-self-center">
+                    <motion.a href="https://gsincodes.github.io/weather-app/" whileTap={{scale:0.95, y:5}} transition={{type: 'spring', stiffness: 400, damping: 17}} className="text-coolgreen text-[clamp(1rem,1.5vw,3rem)] h-fit w-[clamp(100px,90vw,500px)] md:w-[clamp(100px,40vw,500px)] rounded-full p-4 bg-black text-center shadow-lg justify-self-center">
                         Weather Dashboard App
-                    </motion.div>
+                    </motion.a>
                 </motion.div>
             </div>
 
