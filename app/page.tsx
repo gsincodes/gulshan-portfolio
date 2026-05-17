@@ -8,6 +8,7 @@ import ProjectDescription2 from "@/components/ProjectDescription2";
 import SendMeAMessage from "@/components/SendMeAMessage";
 import Lenis from 'lenis';
 import { useEffect } from "react";
+import { AnimatePresence } from "motion/react";
 
 export default function Home() {
 
@@ -25,13 +26,15 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
-      <Introduction />
-      <Me />
-      <ThingsIveBuilt />
-      <ProjectDescription1 />
-      <ProjectDescription2 />
-      <SendMeAMessage />
-    </div>
+    <AnimatePresence mode="wait">
+      <div>
+        <Introduction />
+        <Me />
+        <ThingsIveBuilt />
+        <ProjectDescription1 />
+        <ProjectDescription2 />
+        <SendMeAMessage />
+      </div>
+    </AnimatePresence>
   );
 }

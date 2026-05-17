@@ -38,7 +38,7 @@ body {
 
 @layer utilities {
   .text-stroke-1a {
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.15);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
   }
   .text-stroke-1b {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
