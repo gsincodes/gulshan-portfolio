@@ -1,6 +1,6 @@
 export default function SendMeAMessage() {
     return(
-        <div className="grid grid-cols-1 grid-rows-[1fr_9fr_1fr] h-screen bg-primary font-inconsolata px-4 py-4">
+        <div id="contact" className="grid grid-cols-1 grid-rows-[1fr_9fr_1fr] h-screen bg-primary font-inconsolata px-4 py-4">
             <div className="bg-coolgreen text-black text-[clamp(1.5rem,3vw,5rem)] w-fit p-1 flex items-center font-extrabold shadow-xl">
                 Send Me a Message
             </div>

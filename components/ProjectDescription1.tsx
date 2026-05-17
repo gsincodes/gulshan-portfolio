@@ -3,7 +3,7 @@ import {motion} from "motion/react";
  
 export default function ProjectDescription1() {
     return (
-        <div className="grid grid-rows-2 grid-cols-1 min-h-screen bg-primary font-inconsolata px-4 py-4 gap-8">
+        <div id="projects" className="grid grid-rows-2 grid-cols-1 min-h-screen bg-primary font-inconsolata px-4 py-4 gap-8">
             <div className="grid grid-rows-[1fr_4fr_1fr_4fr] md:grid-rows-[1fr_4fr] md:grid-cols-2 border-b-1 border-black gap-4">
                 <motion.div initial={{y: 40, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{y:{duration: 0.5, delay: 0.25}, opacity: {duration:0.5, delay: 0.5}, ease: 'easeOut', type: "spring"}} className="bg-coolgreen text-black text-[clamp(1rem,1.5vw,5rem)] w-fit max-md:w-[clamp(100px,90vw,400px)] row-start-1 shadow-xl px-4 py-2 row-span-1 shadow-xl">
                     FileUp

@@ -14,16 +14,15 @@ export default function Introduction() {
                     </header>
                 </motion.div>
                 <div className="flex col-span-3 justify-evenly h-full items-center">
-                    <a href="#projects" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Projects</a>
-                    <a href="#resume" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Resume</a>
-                    <a href="#about" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">About</a>
-                    <a href="#contact" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Contact</a>
+                    <motion.a whileHover={{scale: 1.05}} href="#projects" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Projects</motion.a>
+                    <motion.a whileHover={{scale: 1.05}} href="Gulshan-Singh-Resume-March-2026.pdf" target='_blank' rel="noopener noreferrer" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Resume</motion.a>
+                    <motion.a whileHover={{scale: 1.05}} href="#about" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">About</motion.a>
+                    <motion.a whileHover={{scale: 1.05}} href="#contact" className="hover:text-gray-900 font-medium text-gray-600 text-[clamp(0.7rem,3vw,3rem)] lg:text-2xl">Contact</motion.a>
                 </div>
             </motion.nav>
 
             <motion.main className="grid grid-cols-1 grid-rows-[1fr_2fr_1fr]">
 
-                
                 <motion.div initial={{scale: 0.5, y: 200}} animate={{scale: 1, y: 0}} transition={{duration: 0.8, ease: easeInOut}} className="flex md:flex-row flex-col text-[clamp(4rem,7vw,10rem)] font-bold justify-center items-center text-center leading-none">
                     <div className="text-white/70 text-stroke-1a">Gulshan</div>
                     <div className="text-black/70">Singh</div>
@@ -45,7 +44,6 @@ export default function Introduction() {
                     </motion.div>
                 </div>
 
-                
                 <motion.div initial={{scale: 0.5, y: -200}} animate={{scale: 1, y: 0}} transition={{duration: 0.8, ease: easeInOut}} className="flex md:flex-row flex-col text-[clamp(4rem,7vw,10rem)] font-bold justify-center items-center text-center leading-none">
                     <h1 className="text-white/70 text-stroke-1a">Gulshan</h1>
                     <h1 className="text-black/70">Singh</h1>

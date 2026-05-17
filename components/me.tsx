@@ -11,7 +11,7 @@ export default function Me() {
     const isInView = useInView(ref, {once: true});
 
     return (
-        <motion.div variants={{hidden:{ opacity: 0 } , visible: {opacity: 1} }} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}} className="grid h-screen bg-primary font-inconsolata px-4 py-4 place-items-center">
+        <motion.div id="about" variants={{hidden:{ opacity: 0 } , visible: {opacity: 1} }} initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}} className="grid h-screen bg-primary font-inconsolata px-4 py-4 place-items-center">
 
             <motion.div ref={ref} initial={{scale: 1.2, y: 30}} animate={isInView ? {scale: 1, y: 0} : {}} transition={{duration: 1, ease: 'easeOut', type: 'spring'}} whileHover={{scale: 1.5}} className="col-start-1 row-start-1">
                 <div className="w-[clamp(250px,80vw,600px)] h-[clamp(250px,80vw,600px)] bg-coolgreen rounded-full relative z-0 shadow-xl" />
